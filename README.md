@@ -1,5 +1,7 @@
 # Tarea_BBDD_JP
 
+Con la información de: https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PSCompPars
+
 ## 1.Transformación y limipieza de los datos
 
 Al tratarse de una tabla profesional, no necesitamos de una gran limpieza, los procesos realizados han sido:
