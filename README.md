@@ -4,7 +4,7 @@
 
 Al tratarse de una tabla profesional, no necesitamos de una gran limpieza, los procesos realizados han sido:
 
-1.1 Reducir cantidad de columnas
+### 1.1 Reducir cantidad de columnas
 
 La tabla original contiene 84 columnas, un número excesivo para realizar el ejercicio, por lo que la reduzco a 16 columnas
 
