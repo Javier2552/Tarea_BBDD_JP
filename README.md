@@ -2,29 +2,29 @@
 
 ##1. Transformación y limipieza de los datos
 
-Al tratarse de una tabla profesional, no necesitamos de una gran limpieza, los procesos realizados han sido:
-
-1.1 Reducir cantidad de columnas
-
-La tabla original contiene 84 columnas, un número excesivo para realizar el ejercicio, por lo que la reduzco a 16 columnas
-
-1.2 Cambiar nombre columnas
-
-Cambiamos el nombre de las columnas a uno mucho más amigable
-
-1.3 Traducir una columna de inglés a español
-
-Para trabajar más cómodamente con los datos, hay una columna que guarda datos en inglés por lo que la pasamos a español con un método bruto pero con buenos resultados, con ifs anidados
-
-Creamos la columna “metodo_descubrimiento”, con la fórmula:
-
-=SI([@discoverymethod]="Radial Velocity";"Velocidad Radial";SI([@discoverymethod]="Imaging";"Imagen";SI([@discoverymethod]="Eclipse Timing Variations";"Variaciones de tiempo de eclipse";SI([@discoverymethod]="Transit";"Tránsito";SI([@discoverymethod]="Transit Timing Variations";"Variaciones de tiempo de tránsito";SI([@discoverymethod]="Astrometry";"Astrometría";SI([@discoverymethod]="Microlensing";"Microlente";SI([@discoverymethod]="Disk Kinematics";"Cinemática de disco";SI([@discoverymethod]="Orbital Brightness Modulation";"Modulación de brillo orbital";SI([@discoverymethod]="Pulsation Timing Variations";"Variaciones de tiempo en pulso";SI([@discoverymethod]="Pulsar Timing";"Tiempo entre pulsos";"Error en traducción"))))))))))) 
-
-Esta fórmula sirve bien ya que no son muchos posibles datos y no cambian frecuentemente en el tiempo
-
-1.4 Formato fecha aaaa en columna fecha_descubrimiento
-
-Ajustamos el formato a uno personalizado para el año en el que se descubren los planetas
+    Al tratarse de una tabla profesional, no necesitamos de una gran limpieza, los procesos realizados han sido:
+    
+    ##1.1 Reducir cantidad de columnas
+    
+    La tabla original contiene 84 columnas, un número excesivo para realizar el ejercicio, por lo que la reduzco a 16 columnas
+    
+    1.2 Cambiar nombre columnas
+    
+    Cambiamos el nombre de las columnas a uno mucho más amigable
+    
+    1.3 Traducir una columna de inglés a español
+    
+    Para trabajar más cómodamente con los datos, hay una columna que guarda datos en inglés por lo que la pasamos a español con un método bruto pero con buenos resultados, con ifs anidados
+    
+    Creamos la columna “metodo_descubrimiento”, con la fórmula:
+    
+    =SI([@discoverymethod]="Radial Velocity";"Velocidad Radial";SI([@discoverymethod]="Imaging";"Imagen";SI([@discoverymethod]="Eclipse Timing Variations";"Variaciones de tiempo de eclipse";SI([@discoverymethod]="Transit";"Tránsito";SI([@discoverymethod]="Transit Timing Variations";"Variaciones de tiempo de tránsito";SI([@discoverymethod]="Astrometry";"Astrometría";SI([@discoverymethod]="Microlensing";"Microlente";SI([@discoverymethod]="Disk Kinematics";"Cinemática de disco";SI([@discoverymethod]="Orbital Brightness Modulation";"Modulación de brillo orbital";SI([@discoverymethod]="Pulsation Timing Variations";"Variaciones de tiempo en pulso";SI([@discoverymethod]="Pulsar Timing";"Tiempo entre pulsos";"Error en traducción"))))))))))) 
+    
+    Esta fórmula sirve bien ya que no son muchos posibles datos y no cambian frecuentemente en el tiempo
+    
+    1.4 Formato fecha aaaa en columna fecha_descubrimiento
+    
+    Ajustamos el formato a uno personalizado para el año en el que se descubren los planetas
 
 2. Análisis descriptivo de los datos
 
