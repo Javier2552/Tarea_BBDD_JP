@@ -1,6 +1,6 @@
 # Tarea_BBDD_JP
 
-1.Transformación y limipieza de los datos
+## 1.Transformación y limipieza de los datos
 
 Al tratarse de una tabla profesional, no necesitamos de una gran limpieza, los procesos realizados han sido:
 
