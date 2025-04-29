@@ -59,18 +59,18 @@ Datos en 2024:
 
 
 2005
-36 planetas
-46 estrellas
-11362 tamaño en tierras de promedio
-325… parsecs desde la tierra
-Tecnología más usada: Velocidad Radial
+- 36 planetas
+- 46 estrellas
+- 11362 tamaño en tierras de promedio
+- 325… parsecs desde la tierra
+- Tecnología más usada: Velocidad Radial
 
 2024
-250 planetas (+214)
-274 estrellas (+228)
-6478 tamaño en tierras de promedio (ahora podemos encontrar planetas más pequeños y máss lejos)
-766… parsecs desde la tierra (doble de distancia)
-Tecnología más usada: Tránsito
+- 250 planetas (+214)
+- 274 estrellas (+228)
+- 6478 tamaño en tierras de promedio (ahora podemos encontrar planetas más pequeños y máss lejos)
+- 766… parsecs desde la tierra (doble de distancia)
+- Tecnología más usada: Tránsito
 
 
 
